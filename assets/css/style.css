@@ -90,6 +90,11 @@ header h2 {
   color: #666;
   padding: 18px;
   font-size: 18px;
+  cursor: pointer;
+}
+
+.control .btn:hover {
+  transform: scale(1.2);
 }
 
 .control .btn.active {
@@ -106,6 +111,11 @@ header h2 {
   align-items: center;
   justify-content: center;
   background-color: var(--primary-color);
+  cursor: pointer;
+}
+
+.control .btn-toggle-play:hover {
+  transform: scale(1.07);
 }
 
 .progress {
@@ -117,6 +127,7 @@ header h2 {
   opacity: 0.7;
   -webkit-transition: 0.2s;
   transition: opacity 0.2s;
+  cursor: pointer;
 }
 
 .progress::-webkit-slider-thumb {
