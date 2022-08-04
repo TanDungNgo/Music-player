@@ -25,10 +25,22 @@ const app = {
   },
   songs: [
     {
+      name: "Better now",
+      singer: "Post Malone",
+      path: "./assets/music/betternow.mp3",
+      image: "./assets/img/betternow.jpg",
+    },
+    {
       name: "クリスマスソング",
       singer: "Back number",
       path: "./assets/music/song1.mp3",
       image: "./assets/img/song1.jpg",
+    },
+    {
+      name: "Sunroof",
+      singer: "Nicky Youre",
+      path: "./assets/music/sunroof.mp3",
+      image: "./assets/img/sunroof.jpg",
     },
     {
       name: "高嶺の花子さん",
@@ -37,10 +49,11 @@ const app = {
       image: "./assets/img/song2.jpg",
     },
     {
-      name: "Better now",
-      singer: "Post Malone",
-      path: "./assets/music/song3.mp3",
-      image: "./assets/img/song3.jpg",
+      name: "I want it that way",
+      singer: "Backstreet Boys",
+      path: "./assets/music/IWantItThatWay.mp3",
+      image:
+        "https://i1.sndcdn.com/artworks-UazsQcwzkR6uyrcF-T1xghg-t500x500.jpg",
     },
   ],
   render: function () {
@@ -84,7 +97,7 @@ const app = {
     };
 
     const cdThumbAnimate = cdThumb.animate([{ transform: "rotate(360deg)" }], {
-      duration: 15000,
+      duration: 20000,
       iterations: Infinity,
     });
     cdThumbAnimate.pause();
